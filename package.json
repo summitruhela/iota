@@ -1,0 +1,27 @@
+{
+  "name": "iota_services",
+  "version": "1.0.0",
+  "description": "IOTA services",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@iota/curl-remote": "0.0.3",
+    "async": "^2.6.0",
+    "bignumber.js": "7.0.1",
+    "convict": "^4.0.2",
+    "crypto": "1.0.1",
+    "express": "^4.16.2",
+    "iota.lib.js": "0.4.7",
+    "jsonschema": "1.2.2",
+    "jsonwebtoken": "^8.2.0",
+    "mongoose": "^5.0.9",
+    "morgan": "^1.9.0",
+    "randomstring": "1.1.5",
+    "twilio": "^3.14.0"
+  }
+}
